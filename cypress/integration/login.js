@@ -22,7 +22,7 @@ describe("Authentication",function(){
                 
              })
 
-    it.only("complete login",()=>{
+    it("complete login",()=>{
 
                 cy.get(login.emailAddressText).should('be.visible').clear().type(login.emailAddressInput)
                 cy.get(login.passwordText).should('be.visible').clear().type(login.passwordInput)
