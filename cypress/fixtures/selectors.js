@@ -9,3 +9,12 @@ export const login = {
     logInButton:'[data-testid="login"]'
 }
 
+export const overview ={
+    overviewChecker:'.pb-2 > .flex > .items-center',
+    requestAccount:':nth-child(1) > .p-4 > .flex > .ml-4 > .font-medium',
+    fundWallet:'.grid > :nth-child(2) > .p-4 > .flex > .ml-4 > .font-medium',
+    payout:':nth-child(3) > .flex > .ml-4 > .font-medium',
+    support:':nth-child(4) > .flex > .ml-4 > .font-medium',
+    yourBalance:':nth-child(4) > .flex > .ml-4 > .font-medium',
+
+}
