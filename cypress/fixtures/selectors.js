@@ -52,3 +52,20 @@ export const virtualAccounts ={
     
 
 }
+
+export const wallet ={
+    walletNavbar:'.py-4 > :nth-child(2) > .flex > .transform',
+    allWallet:':nth-child(1) > .mr-6',
+    topUpHistory:':nth-child(2) > .mr-6',
+    fundWalletButton:'[data-testid="button"]',
+    fundPageCheker:'.space-y-px > .text-sm',
+    fundCurrencySelection:'[data-testid="currency"]',
+    avaliableBalanceCheker:'.text-right',
+    amountText:'[data-testid="amount"]',
+    amountInput:'1000',
+    fundWalletContinueButton:'.space-y-5 > [data-testid="button"]',
+    fundConfrimationText:'.justify-between > .flex > .text-xl',
+    fundConfrimationInput:'Wallet Funded',
+    doneButton:'.mt-6 > [data-testid="button"]',  
+
+}
