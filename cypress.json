@@ -1,0 +1,13 @@
+{
+    "baseUrl": "https://sandbox.fincra.com/auth/login",
+    "defaultCommandTimeout": 8000,
+    "pageLoadTimeout": 80000,
+  "viewportHeight": 800,
+  "viewportWidth": 1500,
+  
+  "reporter": "mocha-junit-reporter",
+  "reporterOptions": {
+    "mochaFile": "cypress/reports/junit/test-results.[hash].xml",
+    "testsuitesTitle": false
+  }
+}
