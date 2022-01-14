@@ -28,3 +28,27 @@ export const signout ={
     cancelSignoutButton:'.bg-purple-100',
     cancelSignoutChecker:'.py-4 > :nth-child(1) > .flex',
 }
+
+export const virtualAccounts ={
+    virtualAccountNavba:':nth-child(3) > .flex > .transform',
+    allvirtualAccount:':nth-child(1) > .mr-6',
+    pendingtab:':nth-child(2) > .mr-6',
+    virtualAccountbutton:'[data-testid="button"] > span',
+    setUpChecker:'.justify-between > .flex > .text-xl',
+    continueButton:'.mt-6 > [data-testid="button"] > span',
+    bankAccountChecker:'.mb-px',
+    selectCurrency:'[for="GBP"]',
+    requestAccountBottun:':nth-child(3) > [data-testid="button"] > span',
+    reasonText:'[data-testid="reason"]',
+    reasonInput:'for money',
+    entityNameText:'[data-testid="entityName"]',
+    entityNameInput:'john',
+    monthlyVolumeText:'[data-testid="monthlyVolume"]',
+    monthlyVolumeInput:'2000',
+    descriptionText:'[data-testid="paymentFlowDescription"]',
+    descriptionInputs:'the 1990s are good',
+    accountInfoCotinueButton:'form > [data-testid="button"]',
+    okayButton:'.mt-6 > [data-testid="button"]',
+    
+
+}
