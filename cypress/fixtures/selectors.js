@@ -18,3 +18,13 @@ export const overview ={
     yourBalance:':nth-child(4) > .flex > .ml-4 > .font-medium',
 
 }
+
+export const signout ={
+
+    signoutNavba:'[filter="url(#filter01234_d)"] > [width="193"]',
+    signoutConfrimationChecker:'.text-md',
+    sigoutButton:'.space-x-4 > .bg-secondary',
+    signoutChecker:'.mt-2',
+    cancelSignoutButton:'.bg-purple-100',
+    cancelSignoutChecker:'.py-4 > :nth-child(1) > .flex',
+}
